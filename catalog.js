@@ -19,16 +19,7 @@
 
 const CATALOG = [
 
-  {
-    id: "chocolate-crunch-cake",
-    name: "Chocolate Crunch Cake",
-    description:
-      "Our most beloved everyday treat. A rich, layered chocolate cake with a satisfying crunch in every bite. Gone within minutes at any table.",
-    tags: ["cakes", "chocolate"],
-    priceFrom: 15,
-    priceTo: null,
-    image: null  // Replace with: "assets/chocolate-crunch.jpg"
-  },
+  
 
   {
     id: "classic-cheesecake",
@@ -61,6 +52,17 @@ const CATALOG = [
     priceFrom: 22,
     priceTo: 30,
     image: null
+  },
+
+  {
+    id: "chocolate-crunch-cake",
+    name: "Chocolate Crunch Cake",
+    description:
+      "Our most beloved everyday treat. A rich, layered chocolate cake with a satisfying crunch in every bite. Gone within minutes at any table.",
+    tags: ["cakes", "chocolate"],
+    priceFrom: 15,
+    priceTo: null,
+    image: "assets/chocolate_crunch_temp.jpg"  // Replace with: "assets/chocolate-crunch.jpg"
   },
 
   {
